@@ -1,0 +1,95 @@
+.nav-section{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: #bcddeb;
+    justify-content: space-around;
+    align-items: center;
+}
+.app-logo img{
+    width: 160px;
+    height: 110px;  
+}
+.nav-section select{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    outline: none;
+    height: 32px;
+    border: none;
+    background-color: #3297c2;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+.nav-section option{
+    background-color: #bcddeb;
+    color: black;
+}
+
+.search-category{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.nav-section input{
+    font-family: 'Jost', sans-serif;
+    height: 32px;
+    width: 300px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    font-weight: lighter;
+    font-weight: 400;
+}
+.search-button{
+    height: 32px;
+    width:70px;
+    border: none;
+    background-color:#3297c2;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar-actions{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.navbar-actions button{
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    background-color: unset;
+    border: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+}
+.navbar-actions button:hover{
+  background-color: #3297c2;
+  color: #fff;
+}
+.navbar-actions p{
+    margin: 0px;
+}
+.navbar-actions i{
+    font-size: 18px;
+}
+.badge{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    height: 19px;
+    width: 19px;
+    border:2px solid white;
+    border-radius: 100%;
+    background-color:  #e14c38;
+    top: 0px;
+    right: 10px;
+}
